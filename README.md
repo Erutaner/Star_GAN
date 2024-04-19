@@ -1,10 +1,13 @@
 ## StarGAN - PyTorch Implementation
 
 代码的主体部分与 https://github.com/yunjey/stargan 一致，我修改了训练和测试逻辑，并添加了视频表情编辑的代码。
-测试结果如上图，最左侧一列是初始图片，其他列是经过表情编辑后的图片
+测试结果如下图，最左侧一列是初始图片，其他列是经过表情编辑后的图片。
+
+
 <p align="center"><img width="100%" src="./stargan/jpg/200000-images.jpg" /></p>
 
-
+代码没有仔细整理，可能无法直接运行，但逻辑与原作者基本一致，并额外提供了一些转换视频的代码。原文作者没有开源RaFD上训练的权重，这里提供我自己训练的权重如下：
+https://drive.google.com/drive/folders/1BpUjn3cyC4tJeijDAUKEjfrNPau79kX5?usp=sharing
 
 This repository provides the PyTorch implementation of the following paper:
 > **StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation**<br>
